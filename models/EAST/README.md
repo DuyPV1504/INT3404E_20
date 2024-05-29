@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=0 python detect.py
 ``
     pip install -r requirements.txt
 ``
-* Modify the parameters in ```eval.py``` and run:
+* Modify the parameters in ```eval.py``` and run to obtain mAP@.5:.95 score of our model on validset:
 ```
 !python metrics.py --gt Data/Valid/Labels --pred Data/Valid/Submit --img Data/Valid/Images
 ```
