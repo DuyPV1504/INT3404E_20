@@ -1,14 +1,14 @@
 ## Description
 This is a PyTorch Re-Implementation of [EAST: An Efficient and Accurate Scene Text Detector](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_EAST_An_Efficient_CVPR_2017_paper.pdf).
 
-Code to build and train model was mostly adapted from the repository: [https://github.com/Cartucho/mAP](https://github.com/SakuraRiven/EAST)
+Code to build and train model was mostly adapted from the repository: [https://github.com/Cartucho/mAP](https://github.com/SakuraRiven/EAST).
 Code to evaluate the mAP@.5:.95 metric was mostly adapted from the code provided by the TA. 
 ## Prerequisites
 Only tested on
 * Anaconda3
 * Python 3.7.1
 * PyTorch 1.0.1
-* Shapely 1.6.4
+* Shapely 1.6.4 
 * opencv-python 4.0.0.21
 * lanms 1.0.2
 
@@ -23,7 +23,7 @@ The original lanms code has a bug in ```normalize_poly``` that the ref vertices 
 ### 1. Clone the repo
 
 ```
-git clone [https://github.com/SakuraRiven/EAST.git](https://github.com/DuyPV1504/INT3404E_20_Group5)
+git clone https://github.com/DuyPV1504/INT3404E_20_Group5
 cd INT3404E_20_Group5/models/EAST
 ```
 
@@ -49,8 +49,10 @@ Modify the parameters in ```detect.py``` and run:
 CUDA_VISIBLE_DEVICES=0 python detect.py
 ```
 ## Evaluate
-* The evaluation scripts are from [ICDAR Offline evaluation](http://rrc.cvc.uab.es/?ch=4&com=mymethods&task=1) and have been modified to run successfully with Python 3.7.1.
-* Change the ```evaluate/gt.zip``` if you test on other datasets.
+* Set up:
+``
+    pip install -r requirements.txt
+``
 * Modify the parameters in ```eval.py``` and run:
 ```
 !python metrics.py --gt Data/Valid/Labels --pred Data/Valid/Submit --img Data/Valid/Images
