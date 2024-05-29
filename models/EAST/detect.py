@@ -143,7 +143,6 @@ def format_submit_data(img, labels):
     new_labels = []
     w = img.size[0]
     h = img.size[1]
-    print(h, w)
     for label in labels:
         x_tl = label[0]
         y_tl = label[1]
