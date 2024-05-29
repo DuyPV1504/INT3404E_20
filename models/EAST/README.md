@@ -36,7 +36,7 @@ mkdir pths
 mv model_epoch_10.pth pths/
 ```
 ## Train
-Modify the parameters in ```train.py``` and run:
+*Modify the parameters in ```train.py``` and run:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py
 ```
@@ -45,7 +45,7 @@ CUDA_VISIBLE_DEVICES=0,1 python train.py
 ```
 !mkdir Data/Valid/Submit
 ```
-Modify the parameters in ```detect.py``` and run:
+*Modify the parameters in ```detect.py``` and run:
 ```
 CUDA_VISIBLE_DEVICES=0 python detect.py
 ```
