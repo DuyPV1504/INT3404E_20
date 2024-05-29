@@ -11,7 +11,7 @@ pip install ultralytics
 ## Model
 You can download our final model from Google drive: [drive](https://drive.google.com/file/d/1AgbTRbOLfV7szyyk_PYRueYkU7On5oIi/view?usp=sharing)
 ## Structure
-This folder contains a jupiter notebook which we used for our model training on Google Colab.
+This folder contains a Jupyter notebook which we used for our model training on Google Colab.
 ```
 .
 ├── README.md
