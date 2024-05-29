@@ -2,6 +2,7 @@
 This is a PyTorch Re-Implementation of [EAST: An Efficient and Accurate Scene Text Detector](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_EAST_An_Efficient_CVPR_2017_paper.pdf).
 
 Code to build and train model was mostly adapted from the repository: [https://github.com/Cartucho/mAP](https://github.com/SakuraRiven/EAST).
+
 Code to evaluate the mAP@.5:.95 metric was mostly adapted from the code provided by the TA. 
 ## Prerequisites
 Only tested on
