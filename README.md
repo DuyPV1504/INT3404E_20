@@ -20,6 +20,8 @@ Using Mean Average Precision (mAP) metrics and validation set in default dataset
 
 We can see that YOLOv8 out-performed our other preposed method with an mAP of approximately 0.93. Therefore, we chose YOLO as our main method.
 On the mid-term evaluation day, we achieved 0.855 mAP@[0.5,0.95] on the new validation set provided by the profressor.
+
+For more information on our methods, please refer to our report in the repository
 ## Installation and Usage
 For each of our methods installation and how to use them, we created a README file in each folder for each approach in **models** folder. In each file we describe how to use our model in more details.
 
